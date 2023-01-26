@@ -1,14 +1,14 @@
 import React, { useEffect, useState, useRef } from 'react'
 import SignOut from './SignOut';
 import { auth, db } from "../firebase";
-import { FiveG } from '@mui/icons-material';
+// import { FiveG } from '@mui/icons-material';
 import SendMessage from './SendMessage';
 
 function Line() {
 
-  const deleteMessage = (messageId) => {
-    db.collection("messages").doc(messageId).delete();
-  }
+  // const deleteMessage = (messageId) => {
+  //   db.collection("messages").doc(messageId).delete();
+  // }
 
   // Create a reference variable "messagesEndRef" to track the last message element
   const messagesEndRef = useRef(null);
