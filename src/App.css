@@ -1,0 +1,77 @@
+
+
+img {
+  border-radius: 50%;
+  height: 45px;
+  margin-top: -20px;
+  border: 2px solid black;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow-wrap: break-word;
+}
+
+.messages{
+  display: flex;
+  flex-direction: column;
+}
+
+.msg {
+  display: flex;
+  padding: 20px 10px 0 20px;
+  margin: 20px;
+  border-radius: 3000px;
+  box-shadow: 0 0 10px rgb(164, 164, 164);
+  align-items: center;
+}
+
+.sent {
+  background-color: #85e14b;
+  color: black;
+  border-top-right-radius: 500px;
+  flex-direction: row-reverse;
+  padding: 20px 20px 0 10px;
+  text-align: end;
+  float: right;
+  max-width: 40%;
+}
+
+.received {
+  background-color: #fafafa;
+  border-top-left-radius: 500px;
+  float: left;
+}
+
+.sendMsg {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  border-top: 1px solid lightgray;
+  margin-left: -5px;
+  padding: 10px;
+  padding-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.msgs {
+  margin: 110px 0;
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.send__message__bottom{
+  background-color: beige;
+  width: 100vw;
+}
