@@ -4,10 +4,11 @@ import { Button } from "@mui/material"
 
 function SignOut() {
   return (
-    <div>
-      <Button onClick={() => auth.signOut()}>
+    <div className='header'>
+      <Button style={{color: "white", fontSize: "15px"}} onClick={() => auth.signOut()}>
         Sign Out
       </Button>
+      <h3>{auth.currentUser.displayName}</h3>
     </div>
   )
 }
