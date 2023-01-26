@@ -5,7 +5,7 @@ import "firebase/compat/firestore";
 // fetching info from ,env file
 const KEY = process.env.REACT_APP_LINE_KEY
 
-// api hidded in the .env file
+// api hidden in the .env file
 const firebaseApp = firebase.initializeApp({
   apiKey: KEY,
   authDomain: "line-clone-43d2b.firebaseapp.com",
