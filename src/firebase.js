@@ -2,8 +2,8 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
-// fetching info from ,env file
-const KEY = process.env.REACT_APP_LINE_KEY
+// // fetching info from ,env file
+// const KEY = process.env.REACT_APP_LINE_KEY
 
 // api hidden in the .env file
 const firebaseApp = firebase.initializeApp({
