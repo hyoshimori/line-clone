@@ -35,19 +35,13 @@ function SendMessage() {
     <div className="send__message__bottom">
      <form onSubmit={sendMessage}>
       <div className='sendMessage'>
-        <Input style={{
-               width: "78%",
-               fontSize: "15px",
-               fontWeight: "550",
-               marginLeft: "5px",
-               marginBottom: "-3px",
-               }}
+        <Input className="send__message__bottom__input"
                type="text"
                placeholder='Input messages'
                onChange={(e) => setMessage(e.target.value)}
                value={message}
                />
-        <SendIcon style={{ color: "#7AC2FF", marginLeft: "20px" }}/>
+        <Button><SendIcon style={{ color: "black", marginLeft: "10px" }}/></Button>
       </div>
      </form>
     </div>

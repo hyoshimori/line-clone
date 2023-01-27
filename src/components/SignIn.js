@@ -14,9 +14,9 @@ function SignIn() {
     auth.signInWithPopup(provider);
   }
   return (
-    <div>
+    <div className='login'>
       <Button onClick={signInWithGoogle}>
-        Log in with Google
+        Log in with Google to play with chat app
       </Button>
     </div>
   )
