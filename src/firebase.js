@@ -2,12 +2,12 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
-// fetching info from ,env file
-const KEY = process.env.REACT_APP_LINE_KEY
+// // fetching info from ,env file
+// const KEY = process.env.REACT_APP_LINE_KEY
 
 // api hidden in the .env file
 const firebaseApp = firebase.initializeApp({
-  apiKey: KEY,
+  apiKey: "AIzaSyCb5Dq6r8jfG1se6N0fAGLLwusT8_b3QRU",
   authDomain: "line-clone-43d2b.firebaseapp.com",
   projectId: "line-clone-43d2b",
   storageBucket: "line-clone-43d2b.appspot.com",
