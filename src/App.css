@@ -1,4 +1,8 @@
-/* color reference: https://coolors.co/dd6e42-e8dab2-4f6d7a-c0d6df-eaeaea */
+/* color reference: https://coolors.co/a72608-eae6e5-67dc6f-090c02-3a5683 */
+
+body{
+  background-color: #EAE6E5;
+}
 
 h1, h2, h3, h4, h5, p, span, a{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -7,9 +11,52 @@ h1, h2, h3, h4, h5, p, span, a{
   font-weight: 300;
 }
 
+/* button setup */
+
+.sendMessage button{
+  color: #222a41;
+}
+
+.sendMessage button:hover,
+.no__hover button:hover {
+  /*css properties here*/
+  cursor: pointer;
+  background-color: inherit;
+}
+
+
+/* login setup */
+
+.login h1{
+  font-weight: 500;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  min-width: 300px;
+  align-self: center;
+  margin: 10vh auto;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.login h1{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .login button{
-  justify-self: center;
-  color: black;
+  margin: 3vh auto;
+  background-color: white;
+  color: #67DC6F;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(200, 200, 200, 0.5);
 }
 
 /* Header styles */
@@ -25,6 +72,12 @@ h1, h2, h3, h4, h5, p, span, a{
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.header button, .header h3{
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 img{
@@ -58,7 +111,7 @@ p{
 /* Sender style */
 
 .sent{
-  background-color: #DD6E42;
+  background-color: #67DC6F;
   color: black;
   border-radius: 500px;
   flex-direction: row-reverse;
@@ -76,7 +129,7 @@ p{
   padding: 10px 20px;
   flex-direction: row;
   align-items: center;
-  background-color: #4F6D7A;
+  background-color: #EAE6E5;
   border-radius: 500px;
   float: left;
 }
@@ -106,7 +159,7 @@ p{
 /* Footer styles */
 
 .send__message__bottom{
-  background-color: #C0D6DF;
+  background-color: #3A5683;
   padding: 10px 20px;
   width: 100vw;
   position: fixed;

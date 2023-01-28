@@ -4,8 +4,8 @@ import { Button } from "@mui/material"
 
 function SignOut() {
   return (
-    <div className='header'>
-      <Button style={{color: "white", fontSize: "15px"}} onClick={() => auth.signOut()}>
+    <div className='header no__hover'>
+      <Button onClick={() => auth.signOut()}>
         Sign Out
       </Button>
       <h3>{auth.currentUser.displayName}</h3>

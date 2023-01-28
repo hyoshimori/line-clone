@@ -14,11 +14,15 @@ function SignIn() {
     auth.signInWithPopup(provider);
   }
   return (
-    <div className='login'>
-      <Button onClick={signInWithGoogle}>
-        Log in with Google to play with chat app
-      </Button>
-    </div>
+      <div className='login'>
+        <h1><b>LINE is a messenging app widely used in Japan</b></h1>
+        <div>
+          <h2>Please log in with Google account</h2>
+        </div>
+        <Button onClick={signInWithGoogle}>
+          LOG IN WITH Google Account
+        </Button>
+      </div>
   )
 }
 

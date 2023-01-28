@@ -41,7 +41,7 @@ function SendMessage() {
                onChange={(e) => setMessage(e.target.value)}
                value={message}
                />
-        <Button><SendIcon style={{ color: "black", marginLeft: "10px" }}/></Button>
+        <Button className="no__hover"><SendIcon/></Button>
       </div>
      </form>
     </div>
