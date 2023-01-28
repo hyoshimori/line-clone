@@ -15,7 +15,7 @@ function SignIn() {
   }
   return (
       <div className='login'>
-        <h1><b>LINE is a messenging app widely used in Japan</b></h1>
+        <h1><b>LINE is a messaging app widely used in Japan</b></h1>
         <div>
           <h2>Please log in with Google account</h2>
         </div>
