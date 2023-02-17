@@ -14,15 +14,19 @@ function SignIn() {
     auth.signInWithPopup(provider);
   }
   return (
+    <>
       <div className='login'>
         <h1><b>LINE is a messaging app widely used in Japan</b></h1>
         <div>
           <h2>Please log in with Google account</h2>
+          <h2>If you do not wish to log in, please have a look at the screen shot below.</h2>
         </div>
         <Button onClick={signInWithGoogle}>
           LOG IN WITH Google Account
         </Button>
       </div>
+      <img src="chat-photo2.jpg" className='photo__example' alt="" />
+    </>
   )
 }
 

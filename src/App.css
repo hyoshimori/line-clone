@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, p, span, a{
   width: 30vw;
   min-width: 270px;
   align-self: center;
-  margin: 10vh auto;
+  margin: 10vh auto 5vh auto;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 20px;
@@ -59,6 +59,17 @@ h1, h2, h3, h4, h5, p, span, a{
   margin: 3vh auto;
   background-color: white;
   color: #67DC6F;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(200, 200, 200, 0.5);
+}
+
+.photo__example{
+  display: flex;
+  width: 33vw;
+  min-width: 310px;
+  height: 100%;
+  margin: 10vh auto;
+  object-fit: cover;
   border-radius: 10px;
   box-shadow: 0px 5px 10px 0px rgba(200, 200, 200, 0.5);
 }
