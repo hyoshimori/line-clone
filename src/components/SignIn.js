@@ -20,7 +20,7 @@ function SignIn() {
         <div>
           <h2>Please log in with Google account</h2>
           <h2>If you do not wish to log in, please have a look at the screen shot below.</h2>
-          <h2>For security reasons, unauthenticated users are not capable of adding messages</h2>
+          <h2>For security reasons, unauthenticated users are not capable of adding messages.</h2>
         </div>
         <Button onClick={signInWithGoogle}>
           LOG IN WITH Google Account
